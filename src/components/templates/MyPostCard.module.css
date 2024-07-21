@@ -1,0 +1,39 @@
+.post {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 6px #bebebe;
+    padding: 8px 10px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.items {
+    display: flex;
+}
+
+.items img {
+    width: 80px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.price {
+    align-items: center;
+}
+
+.items span {
+    color: rgb(140, 140, 140);
+    font-size: 13px;
+}
+
+.items button {
+    margin-right: 10px;
+    height: 30px;
+}

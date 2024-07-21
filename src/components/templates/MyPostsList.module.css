@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list h3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #a62626;
+    width: fit-content;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    box-shadow: #e5e5e5 0px 0px 6px 1px;
+}
+
+.content {
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 45px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.header span:hover {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+.header span p {
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.menu {
+    width: 200px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: #e1e1e1 0px 0px 8px 1px;
+    background-color: #fff;
+    top: 70px;
+}
+
+.menu span {
+    width: 100%;
+    margin: 0px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.button {
+    background-color: #a62626;
+    color: #fff;
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 45px;
+}
+
+.button:hover {
+    background-color: #b23030;
+}
+
+.logout {
+    margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+    .button {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .content {
+        padding: 10px 10px;
+    }
+    .header span {
+        margin-left: 0px;
+        padding: 15px 5px;
+    }
+    .button {
+        margin-right: 0px;
+    }
+    .logo {
+        margin-left: 2px;
+    }
+}
+
+@media (max-width: 361px) {
+    .logo img {
+        width: 33px;
+    }
+    .button {
+        font-size: 13px;
+        height: 35px;
+        width: 60px;
+        line-height: 35px;
+    }
+    .header span {
+        font-size: 0.7rem;
+    }
+    .icon {
+        font-size: 13px;
+    }
+    .content span img {
+        width: 17px;
+    }
+}

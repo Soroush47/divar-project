@@ -1,0 +1,44 @@
+.list {
+    margin: 40px 0px 70px;
+}
+
+.list div {
+    display: flex;
+    align-items: end;
+    margin-bottom: 30px;
+    padding: 20px 25px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.icon {
+    display: flex;
+    font-size: 1.3rem;
+    margin-right: 30px;
+    color: #696969;
+}
+
+.list h5 {
+    margin-right: 10px;
+    font-size: 0.9rem;
+    width: 120px;
+}
+
+.deleteIcon {
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 27px;
+    padding: 2px;
+}
+
+.deleteIcon:hover {
+    padding: 0px;
+}
+
+.delete {
+    display: flex;
+    align-items: end;
+    direction: ltr;
+    width: 100%;
+    color: #a62626;
+}

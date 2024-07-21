@@ -1,0 +1,85 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.text {
+    color: grey;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    min-height: 110px;
+}
+
+.form label {
+    margin: 5px 0px;
+}
+
+.input input {
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    max-width: 187px;
+    outline-color: #cacaca;
+}
+
+.input input::placeholder {
+    opacity: 0.5;
+    font-weight: 200;
+}
+
+.error {
+    color: #cf3a2f;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.button {
+    width: 70px;
+    border: none;
+    background-color: #a62626;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #b23030;
+}
+
+.submitting {
+    width: 100px;
+    border: none;
+    background-color: #a62626c7;
+    color: #ffffffd6;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.changePhone {
+    max-width: 140px;
+    margin-top: 15px;
+    border: 1px solid #a62626;
+    color: #a62626;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.changePhone:hover {
+    background-color: #f8f8f8;
+    color: #b23030;
+    border-color: #b23030;
+}

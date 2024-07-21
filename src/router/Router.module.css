@@ -1,0 +1,12 @@
+.router {
+    margin: auto;
+    max-width: 1440px;
+    padding: 20px;
+    margin-top: 125px;
+}
+
+@media (max-width: 540px){
+    .router {
+        padding: 20px 10px
+    }
+}

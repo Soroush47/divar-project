@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+
+}
+
+@media (max-width: 540px) {
+    .container {
+        flex-wrap: wrap;
+        /* justify-content: start; */
+    }
+}

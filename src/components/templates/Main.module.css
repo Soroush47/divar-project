@@ -1,0 +1,25 @@
+.title {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .title {
+        margin-right: 10px;
+    }
+    .list {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 540px) {
+    .title {
+        margin-right: 0px;
+    }
+}
